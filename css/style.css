@@ -12852,6 +12852,137 @@ textarea.form-control {
 
 /*For button end*/
 
+/*For calendar start*/
+
+.single-job-items {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.single-job-items .job-items {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.single-job-items .company-img img {
+    overflow: hidden;
+    float: left;
+    margin-right: 32px;
+    z-index: 999;
+    padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-job-items .company-img img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .single-job-items .company-img img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .single-job-items .job-tittle {
+        padding: 14px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-job-items .job-tittle {
+        padding: 14px;
+    }
+}
+
+.single-job-items .job-tittle a h4 {
+    color: #696969;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 26px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.single-job-items .job-tittle a h4:hover {
+    color: #ee76ad;
+}
+
+.single-job-items .job-tittle ul li {
+    display: inline-block;
+    margin-right: 48px;
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.8;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-job-items .job-tittle ul li {
+        margin-right: 18px;
+    }
+}
+
+@media (max-width: 575px) {
+    .single-job-items .job-tittle ul li {
+        margin-right: 0px;
+        margin-bottom: 7px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-job-items .job-tittle ul li {
+        margin-right: 8px;
+    }
+}
+
+.single-job-items .job-tittle ul li:last-child {
+    margin-right: 0px;
+}
+
+.single-job-items .job-tittle ul li i {
+    font-size: 14px;
+    color: #bbbbbb;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-job-items .job-tittle2 {
+        padding-top: 25px;
+    }
+}
+
+.single-job-items:hover {
+    box-shadow: 0px 22px 57px 0px rgba(34, 41, 72, 0.05);
+}
+
+/*For calendar end*/
+
 #ftco-loader {
     position: fixed;
     width: 96px;
